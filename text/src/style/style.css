@@ -1,0 +1,17 @@
+.attach-btn{
+    -fx-background-color:  #22A6F2;
+    -fx-background-radius: 90px;
+    -fx-border-color:  #22A6F2;
+    -fx-border-style: solid;
+    -fx-border-width: 1px;
+    -fx-border-radius: 90px
+}
+.attach-btn:hover
+{
+    -fx-background-color:#1D618F;
+    -fx-border-color:  white;
+    -fx-border-style: solid;
+    -fx-border-width: 1px;
+    -fx-border-radius: 90px
+    
+}

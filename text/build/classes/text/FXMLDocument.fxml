@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="538.0" prefWidth="739.0" style="-fx-background-color: #C6CED6;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="text.FXMLDocumentController">
+   <children>
+      <AnchorPane prefHeight="92.0" prefWidth="739.0" style="-fx-background-color: #22A6F2;">
+         <children>
+            <FontAwesomeIconView fill="WHITE" glyphName="ARROW_LEFT" layoutX="36.0" layoutY="52.0" size="18" wrappingWidth="58.000005453825" />
+            <ImageView fitHeight="71.0" fitWidth="98.0" layoutX="73.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/1.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="149.0" layoutY="33.0" prefHeight="26.0" prefWidth="162.0" text="Julio Onterga" textFill="#f8f8f8">
+               <font>
+                  <Font name="Arial" size="20.0" />
+               </font>
+            </Label>
+            <Button alignment="CENTER" graphicTextGap="5.0" layoutX="571.0" layoutY="24.0" mnemonicParsing="false" nodeOrientation="LEFT_TO_RIGHT" prefHeight="49.0" prefWidth="50.0" style="-fx-background-radius: 90px;" styleClass="attach-btn" stylesheets="@../style/style.css">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <graphic>
+                  <FontAwesomeIconView fill="WHITE" glyphName="PHONE" size="25" wrappingWidth="24.64285659790039" />
+               </graphic>
+               <padding>
+                  <Insets left="5.0" top="5.0" />
+               </padding>
+            </Button>
+            <Button layoutX="630.0" layoutY="26.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="50.0" styleClass="attach-btn" stylesheets="@../style/style.css">
+               <graphic>
+                  <ImageView fitHeight="28.0" fitWidth="29.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/attach_48px.png" />
+                     </image>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button layoutX="512.0" layoutY="26.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="50.0" styleClass="attach-btn" stylesheets="@../style/style.css">
+               <graphic>
+                  <ImageView fitHeight="26.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/video_call_48px.png" />
+                     </image>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Label layoutX="161.0" layoutY="60.0" text="Online" textFill="WHITE" />
+         </children>
+         <effect>
+            <DropShadow />
+         </effect>
+      </AnchorPane>
+      <TextField layoutX="22.0" layoutY="471.0" prefHeight="45.0" prefWidth="629.0" promptText="        Type a Message" style="-fx-background-radius: 80px; -fx-background-color: white;">
+         <font>
+            <Font name="Arial" size="12.0" />
+         </font>
+      </TextField>
+      <Button layoutX="665.0" layoutY="464.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="58.0" style="-fx-background-color: #22A6F2; -fx-background-radius: 80px;">
+         <graphic>
+            <FontAwesomeIconView fill="WHITE" glyphName="SEND" size="18" />
+         </graphic>
+         <effect>
+            <DropShadow blurType="ONE_PASS_BOX" color="#00000071" height="23.72" offsetX="1.0" offsetY="3.0" radius="5.43" width="0.0" />
+         </effect>
+      </Button>
+      <TextField layoutX="34.0" layoutY="174.0" prefHeight="49.0" prefWidth="280.0" style="-fx-background-color: white; -fx-background-radius: 10px;" text="Hello Man What happend to you yesterday">
+         <font>
+            <Font name="Arial" size="13.0" />
+         </font>
+      </TextField>
+      <ImageView fitHeight="55.0" fitWidth="58.0" layoutX="15.0" layoutY="140.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/1.png" />
+         </image>
+      </ImageView>
+      <TextField layoutX="420.0" layoutY="216.0" prefHeight="49.0" prefWidth="280.0" style="-fx-background-color: #AAD486; -fx-background-radius: 10px;" text="Mehn I was as High as fuck was all doped up">
+         <font>
+            <Font name="Arial" size="13.0" />
+         </font>
+      </TextField>
+      <ImageView fitHeight="55.0" fitWidth="58.0" layoutX="665.0" layoutY="181.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/jay%20.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="219.0" layoutY="135.0" text="You Missed a video call from Julio Onterga  Call Back" textFill="#f80f0f" />
+      <Label layoutX="273.0" layoutY="209.0" text="11:24" textFill="#c6c0c0">
+         <font>
+            <Font size="9.0" />
+         </font>
+      </Label>
+      <Label layoutX="658.0" layoutY="250.0" text="11:24" textFill="#908c8c">
+         <font>
+            <Font size="9.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="55.0" fitWidth="58.0" layoutX="22.0" layoutY="251.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/1.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="45.0" fitWidth="66.0" layoutX="80.0" layoutY="269.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/happy_100px.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="45.0" fitWidth="66.0" layoutX="116.0" layoutY="269.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/happy_100px.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="45.0" fitWidth="66.0" layoutX="152.0" layoutY="268.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/happy_100px.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="45.0" fitWidth="66.0" layoutX="189.0" layoutY="269.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/happy_100px.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="45.0" fitWidth="66.0" layoutX="226.0" layoutY="269.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/happy_100px.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="238.0" layoutY="314.0" text="11:25" textFill="#c6c0c0">
+         <font>
+            <Font size="9.0" />
+         </font>
+      </Label>
+      <TextField layoutX="409.0" layoutY="314.0" prefHeight="49.0" prefWidth="294.0" style="-fx-background-color: #AAD486; -fx-background-radius: 10px;" text="Mehn I saw my seventh sense some carzy shit ..">
+         <font>
+            <Font name="Arial" size="13.0" />
+         </font>
+      </TextField>
+      <ImageView fitHeight="55.0" fitWidth="58.0" layoutX="666.0" layoutY="280.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/jay%20.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="662.0" layoutY="349.0" text="11:26" textFill="#908c8c">
+         <font>
+            <Font size="9.0" />
+         </font>
+      </Label>
+      <TextField layoutX="33.0" layoutY="388.0" prefHeight="49.0" prefWidth="280.0" style="-fx-background-color: white; -fx-background-radius: 10px;" text="Jeeeeeeeeez bru dammmmmn ">
+         <font>
+            <Font name="Arial" size="13.0" />
+         </font>
+      </TextField>
+      <ImageView fitHeight="55.0" fitWidth="58.0" layoutX="20.0" layoutY="351.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/1.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="275.0" layoutY="422.0" text="11:26" textFill="#c6c0c0">
+         <font>
+            <Font size="9.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="26.0" fitWidth="22.0" layoutX="227.0" layoutY="402.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/lol_30px.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="26.0" fitWidth="22.0" layoutX="252.0" layoutY="402.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/lol_30px.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
